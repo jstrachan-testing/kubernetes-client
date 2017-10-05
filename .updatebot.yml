@@ -1,0 +1,6 @@
+github:
+  organisations:
+  - name: jstrachan-testing
+    repositories:
+    - name: fabric8
+    - name: fabric8-maven-plugin
