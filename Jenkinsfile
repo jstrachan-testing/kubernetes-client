@@ -6,9 +6,8 @@ node {
 
     stage('UpdateBot') {
         // now lets make pull requests on downstream projects
-        ansiColor('xterm') {
-          updateBotPush()
-        }
+        updateBotPush()
+ 
         echo "awesome eh?"
     }
 }
